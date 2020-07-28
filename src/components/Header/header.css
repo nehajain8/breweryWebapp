@@ -1,0 +1,11 @@
+.main-header-container {
+    background-color: #003b71;
+    padding: 14px 0;
+}
+.main-header-container a {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    color: #fff;
+    padding: 0 45px;
+    text-decoration: none;
+}
