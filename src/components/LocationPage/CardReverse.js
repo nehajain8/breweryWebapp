@@ -8,13 +8,15 @@ class CardReverse extends Component {
           <div className = "completion-rate">Completion 100%</div>
           <div className = "known-for">Known for</div>
           <div className = "card-image">
-          <img src= "/card-image.png" />
-          <img src= "/card-image.png" />
-          <img src= "/card-image.png" />
-          <img src= "/card-image.png" />
-          <img src= "/card-image.png" />
-          <img src= "/card-image.png" />
-          </div>         
+            <img src= "/card-image.png" />
+            <img src= "/card-image.png" />
+            <img src= "/card-image.png" />
+            <img src= "/card-image.png" />
+            <img src= "/card-image.png" />
+            <img src= "/card-image.png" />
+          </div>  
+          <div className = "front-arrow">
+          <img src= "/Path 3351.png" /></div>       
         </div>
     );
   }
