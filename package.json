@@ -2,15 +2,20 @@
   "name": "react-app-2",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://be5v9uz8x9.execute-api.us-east-2.amazonaws.com",
   "dependencies": {
+    "axios": "^0.19.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "0.9.5",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
